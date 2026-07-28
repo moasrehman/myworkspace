@@ -8,6 +8,8 @@
 #include <stdbool.h>
 
 #include "device.h"
+#include "board.h"
+#include "f280015x_device.h"
 #include "driverlib.h"
 
 /* Fallback LED pin if board header doesn't define one */

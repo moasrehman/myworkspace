@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LaunchXL-F2800157 Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/main.out",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/ti/ccs1230/ccs/ccs_base/common/uscif/gdb/arm-none-eabi-gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build-f2800157",
+      "stopAtEntry": false,
+      "externalConsole": false
+    }
+  ]
+}
